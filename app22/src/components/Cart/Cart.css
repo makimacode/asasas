@@ -1,5 +1,6 @@
 .Button {
-    width: auto;
+ max-width: 1px;
+  max-height: 11px;
     margin: 5px;
     padding-top: 12px;
     font-size: 8px;

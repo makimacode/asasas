@@ -1,5 +1,5 @@
 .Cartwidget {
-    width: auto;
+    max-width: 100px;
     padding: 12px;
     font-size: 8px;
     background: #000000;
@@ -21,6 +21,6 @@
 
 .CartImg {
     margin-right: 10px;
-    width: 2px;
+    width: 10px;
     height: 66px;
 }

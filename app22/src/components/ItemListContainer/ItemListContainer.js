@@ -3,7 +3,7 @@ import { useState, useEffect, useContext } from 'react'
 import ItemList from '../ItemList/ItemList'
 import { useParams } from 'react-router-dom'
 import { getDocs, collection, query, where } from 'firebase/firestore'
-import { db } from '../../services/firestore'
+import { db } from '../../services'
 import { NotificationContext } from '../../components/Notification/Notification'
 
 const ItemListContainer = ({ greeting }) => {
@@ -17,6 +17,10 @@ const ItemListContainer = ({ greeting }) => {
     useEffect(() => {
         setLoading(true)
 
+
+
+
+        
         const collectionRef = categoryId
             ? query(collection(db, 'products'), where('category', '==', categoryId))
             : collection(db, 'products')

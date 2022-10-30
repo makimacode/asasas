@@ -6,7 +6,7 @@ import { CartContextProvider } from './context/CartContext'
 // import { NotificationProvider } from './Notification/Notification';
 import ItemListContainer from './components/ItemListContainer/ItemListContainer';
 import Cart from './components/Cart/Cart';
-import Checkout from './components/Checkout/Checkout'
+import Checkout from './components/Checkout/Checkout';
 
 
 function App() {

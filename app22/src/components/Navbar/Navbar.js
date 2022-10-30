@@ -3,7 +3,7 @@ import { useState, useEffect } from 'react'
 import './NavBar.css'
 import { Link, NavLink } from 'react-router-dom'
 import CartWidget from '../CartWidget/Cartwidget'
-import { db } from '../../services/firestore'
+import { db } from '../../services'
 
 
 const NavBar = () => {
